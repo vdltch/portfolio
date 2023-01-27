@@ -56,7 +56,7 @@ export default function Home() {
                   autoComplete="email"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-yellow-400 focus:outline-none focus:ring-yellow-400 sm:text-sm"
-                  placeholder="Ici"
+                  placeholder="Email"
                 />
               </div>
               <div>
