@@ -47,6 +47,63 @@ export default function Home() {
                 <Image src={deved} layout="fill" objectFit='cover'/>
             </div>
             </section>
+            <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              Expériences Professionnelles
+             </h3>
+              <p className="py-2">
+                {/* Creating elegant designs suited for your needs following core
+                design theory. */}
+              </p>
+              <h4 className="py-1 text-teal-600">EISGE - 45200 Montargis</h4>
+              <div className=' text-md leading-8'>
+              <p className='py-1'>Chez EISGE j&apos;ai pu effectuer 15 semaines de stage lors de mon parcours en Baccalauréat Professionnelles. <br /> Durant ces 15 semaines j&apos;ai pu : </p>
+              <p className="text-gray-800 py-1">Développer un plugin Wordpress en <span className=' text-teal-600'>php</span>,</p>
+              <p className="text-gray-800 py-1">Créer et utiliser des <span className=' text-teal-600'>API</span></p>
+              <p className="text-gray-800 py-1">Utilisation de language <span className='text-teal-600'>Front</span> et <span className='text-teal-600'>Back </span>end.</p>
+                <br/>
+                <h4 className="py-1 text-teal-600">Centre Hospitalier de l'Agglomération Montargoise - 45200 Montargis</h4>
+                <p>Au Cham j'ai pu effectuer 5 semaines de stage.
+                    Lors de ses 5 semaines, j'ai pu prendre à distance des systèmes informatisés via <span className='text-teal-600'>VNC</span>. 
+                    <br/>J'ai pu gérer un<span className='text-teal-600'> AD</span> ou 
+                    dit <span className='text-teal-600'>A</span>ctive <span className='text-teal-600'>D</span>irectory sous 
+                    <span className='text-teal-600'> Windows Server</span> en ajoutant des utilisateurs sous différents status selon leurs status dans l'entreprise.
+                </p>
+              </div>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <Image src={consulting} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Compétences / Soft-Skills
+              </h3>
+              <h4 className="py-1 text-teal-600">Front-end</h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              <h4 className="py-1 text-teal-600">Back-end</h4>
+                <p>PHP</p>
+                <p>Python</p>
+                <p>Test</p>
+              <h4 className="py-1 text-teal-600">Frameworks</h4>
+                <p>Tailwind CSS</p>
+                <p>Bootstrap</p>
+                <p>React</p>
+                <p>Next</p>
+              <h4 className="py-1 text-teal-600">Design UI</h4>
+                <p>Figma</p>
+                <p>Photoshop</p>
+              <h4 className="py-1 text-teal-600">Autres</h4>
+                <p>NPM</p>
+                <p>Git / Github</p>
+                <p>Vercel app</p>
+                <p>. NET</p>
+                <p>C++</p>
+                <p>Swift</p>
+
+            </div>
+            </div>
         </main>
         </div>
     );
