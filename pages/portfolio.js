@@ -64,12 +64,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Créer et utiliser des <span className=' text-teal-600'>API</span></p>
               <p className="text-gray-800 py-1">Utilisation de language <span className='text-teal-600'>Front</span> et <span className='text-teal-600'>Back </span>end.</p>
                 <br/>
-                <h4 className="py-1 text-teal-600">Centre Hospitalier de l'Agglomération Montargoise - 45200 Montargis</h4>
-                <p>Au Cham j'ai pu effectuer 5 semaines de stage.
-                    Lors de ses 5 semaines, j'ai pu prendre à distance des systèmes informatisés via <span className='text-teal-600'>VNC</span>. 
-                    <br/>J'ai pu gérer un<span className='text-teal-600'> AD</span> ou 
+                <h4 className="py-1 text-teal-600">Centre Hospitalier de l&apos;Agglomération Montargoise - 45200 Montargis</h4>
+                <p>Au Cham j&apos;ai pu effectuer 5 semaines de stage.
+                    Lors de ses 5 semaines, j&apos;ai pu prendre à distance des systèmes informatisés via <span className='text-teal-600'>VNC</span>. 
+                    <br/>J&apos;ai pu gérer un<span className='text-teal-600'> AD</span> ou 
                     dit <span className='text-teal-600'>A</span>ctive <span className='text-teal-600'>D</span>irectory sous 
-                    <span className='text-teal-600'> Windows Server</span> en ajoutant des utilisateurs sous différents status selon leurs status dans l'entreprise.
+                    <span className='text-teal-600'> Windows Server</span> en ajoutant des utilisateurs sous différents status selon leurs status dans l&apos;entreprise.
                 </p>
               </div>
             </div>
