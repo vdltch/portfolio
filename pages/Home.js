@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import Link from 'next/link';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import {AiFillMobile, AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/moiPhoto.png';
 import design from '../public/design.png';
@@ -39,9 +39,9 @@ export default function Home() {
                 </p>
             </div>
             <div className=' text-5xl flex justify-center text-gray-600 gap-16'>
-               <a href="#"><AiFillTwitterCircle  /></a>
+               <a href="#"><AiFillMobile  /></a>
                <a href="https://www.linkedin.com/in/vincent-delatouche-01119020a/"><AiFillLinkedin /></a>
-               <a href="#"><AiFillYoutube /></a>
+               <a href="#"><AiFillMail /></a>
             </div>
             <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96' >
                 <Image src={deved} layout="fill" objectFit='cover'/>
