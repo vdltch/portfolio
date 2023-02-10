@@ -47,7 +47,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-              Création d'un nouveau site internet pour un lycée
+              Création d&aposun nouveau site internet pour un lycée
              </h3>
               <p className="py-2">
                 {/* Creating elegant designs suited for your needs following core
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-              Création d'un Plugin Wordpress pour gérer des données
+              Création d&aposun Plugin Wordpress pour gérer des données
              </h3>
               <p className="py-2">
                 {/* Creating elegant designs suited for your needs following core
